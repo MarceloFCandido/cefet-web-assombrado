@@ -89,10 +89,22 @@ main {
   margin-left: 2.5%;
   margin-right: 2.5%;
   display: inline-block;
+  position: relative;
 }
 
 #posts-principais article .titulo {
-  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  padding: 1rem 1rem .3rem 1rem;
+  top: 0rem;
+  background: #00583f88;
+  color: #f0f0f0;
+  opacity: 0;
+}
+
+#posts-principais article .titulo:hover {
+  opacity: 1;
+  transition: opacity .5s linear;
 }
 
 #posts-principais article img {
