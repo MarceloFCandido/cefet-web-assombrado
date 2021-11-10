@@ -40,7 +40,6 @@ a:active {
   color: red;
 }
 
-
 /* --- Cabeçalho --- */
 header {
   background-color: rgba(0, 0, 0, .95);
@@ -160,6 +159,15 @@ main {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px black;
+}
+
+.tag-1:active,
+.tag-2:active,
+.tag-3:active {
+  position: relative;
+  cursor: pointer;
+  bottom: 2px;
+  right: 2px;
 }
 
 .tag-2 {
