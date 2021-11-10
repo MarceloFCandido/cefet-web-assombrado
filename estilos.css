@@ -156,10 +156,12 @@ main {
 
 /* --- Principal >> Nuvem de tags --- */
 #tags {
+  position: sticky;
   float: right;
-  box-sizing: border-box;
+  top: 0;
   width: 300px;
   padding: 15px;
+  box-sizing: border-box;
   background-color: black;
   background-image: url(imgs/mula.webp);
   background-repeat: no-repeat;
