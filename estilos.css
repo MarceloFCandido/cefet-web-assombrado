@@ -276,3 +276,28 @@ footer .logo-rodape {
   border-color: currentColor;
   box-shadow: none;
 }
+
+.boo {
+  position: fixed;
+  width: 40px;
+  opacity: .1;
+}
+
+.boo:hover {
+  opacity: 1;
+}
+
+#boo-0 {
+  top: 3vh;
+}
+
+#boo-1 {
+  top: 20vh;
+  left: 80vw;
+  transform: scaleX(-1);
+}
+
+#boo-2 {
+  top: 80vh;
+  left: 50vw;
+}
