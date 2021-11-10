@@ -59,12 +59,15 @@ header a {
 
 nav ul {
   margin-bottom: 0;
-  padding: .7rem 50rem;
+  padding: .7rem 0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+nav ul li {
+  margin: 0 1rem
 }
 
 /* --- Conteúdo principal da página --- */
@@ -277,6 +280,7 @@ footer .logo-rodape {
   box-shadow: none;
 }
 
+/* Ghosts */
 .boo {
   position: fixed;
   width: 40px;
